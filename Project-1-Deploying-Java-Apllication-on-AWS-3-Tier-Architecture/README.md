@@ -1,3 +1,25 @@
+# Deploy Java Application on AWS 3-Tier Architecture
+
+![AWS](https://imgur.com/b9iHwVc.png)
+
+## Table of Contents
+
+1. [Goal](#goal)
+2. [Pre-Requisites](#pre-requisites)
+3. [Pre-Deployment](#pre-deployment)
+4. [VPC Deployment](#vpc-deployment)
+5. [Maven (Build)](#maven-build)
+6. [3-Tier Architecture](#3-tier-architecture)
+7. [Application Deployment](#application-deployment)
+8. [Post-Deployment](#post-deployment)
+9. [Validation](#validation)
+
+---
+
+![3-tier application](https://imgur.com/3XF0tlJ.png)
+
+---
+
 # Project Overview
 
 ## Goal
@@ -344,3 +366,18 @@ Golden AMIs will be created for the different tiers (Nginx, Tomcat, Maven) of th
 
 2. **Application Accessibility**:
    - Ensure the application is accessible from a public internet browser.
+
+## Final Note
+
+> [!Important]
+>
+> _If you find this repository useful for learning, please give it a star on GitHub. Thank you!_
+
+---
+
+## **Author by:**
+
+![](https://imgur.com/2j6Aoyl.png)
+
+> [!Note]
+> **Join Our** [Telegram Community](https://t.me/prodevopsguy) // [Follow me](https://github.com/NotHarshhaa) **for more DevOps & Cloud content.**
