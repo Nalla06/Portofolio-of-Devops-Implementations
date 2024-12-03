@@ -32,8 +32,8 @@ Customize the application dependencies mentioned below on AWS EC2 instance and c
 
 ## VPC Deployment
 
-1. Build VPC network ( 192.168.0.0/16 ) for Bastion Host deployment as per the architecture shown above.
-2. Build VPC network ( 172.32.0.0/16 ) for deploying Highly Available and Auto Scalable application servers as per the architecture shown above.
+1. Build VPC network ( 172.32.0.0/16 ) for Bastion Host deployment as per the architecture shown above.
+2. Build VPC network ( 192.168.0.0/16 ) for deploying Highly Available and Auto Scalable application servers as per the architecture shown above.
 3. Create NAT Gateway in Public Subnet and update Private Subnet associated Route Table accordingly to route the default traffic to NAT for outbound internet connection.
 4. Create Transit Gateway and associate both VPCs to the Transit Gateway  for private communication.
 5. Create Internet Gateway for each VPC and Public Subnet associated Route Table accordingly to route the default traffic to IGW for inbound/outbound internet connection.
