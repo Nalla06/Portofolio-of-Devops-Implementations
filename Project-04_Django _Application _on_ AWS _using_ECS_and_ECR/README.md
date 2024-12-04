@@ -102,26 +102,3 @@ Now the time has come to launch our first EC2 instance using AWS ECS. To begin w
 4. **Create a Task** — To run docker containers on AWS ECR we need to create the task definition first. We can configure multiple containers and data storage in a single task definition. While creating the task definition we specify which ECR to be used for which container and also the port mappings.
 
 5. **Run instance by triggering the created task** — After doing all the above steps successfully, we are now at the stage of triggering our created task by entering into the cluster. After running our task we can check in the EC2 console whether our created instance is running or not.
-
-## Congratulazioni! 🙂
-
-**We have Successfully deployed our Django Application on AWS cloud using ECS and ECR.**
-
-As a Page of victory, check if the Django application is running correctly or not by navigating to the public DNS of the instance in the browser.
-
-Many other factors come into play when we deploy a full-fledged Django application on the production server. Some of these factors are as below:
-
-* Security
-* Monitoring
-* Load balancing
-* Recovery Plans
-
-To fulfill some of these factors, one can also use the `AWS Beanstalk` service to deploy Django apps more efficiently.
-
-**Happy Learning!**
-
-# Hit the Star! ⭐
-
-***If you are planning to use this repo for learning, please hit the star. Thanks!***
-
-#### Author by [Harshhaa Reddy](https://github.com/NotHarshhaa)
