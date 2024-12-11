@@ -30,6 +30,7 @@
 * Access Web UI on port 8080
 
 _*Log in to the Amazon management console, open EC2 Dashboard, click on the Launch Instance drop-down list, and click on Launch Instance as shown below:*_
+https://postimg.cc/1g643ss5
 
 ![AWS](https://miro.medium.com/v2/resize:fit:750/format:webp/0*dV_5siwtpbY49t_K.png)
 
